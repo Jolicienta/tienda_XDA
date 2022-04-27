@@ -1,0 +1,28 @@
+.navbar {
+    padding-right: 60px;
+    background-color: black;
+
+    .navbar_bar {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        width: 100vw;
+    }
+
+
+    .navbar-toggler {
+        border: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    #navbarNav {
+        display: flex;
+        text-align: center;
+        align-content: center;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+}
