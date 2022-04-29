@@ -1,0 +1,45 @@
+.newsletter {
+    width: 100%;
+    background-color: $negro;
+    font-family: $principal;
+    font-size: 40px;
+    font-weight: $bold;
+    color: $blanco;
+    display: flex;
+    justify-content: space-between;
+
+    .datos {
+        padding: 50px 0 50px 80px;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            font-size: 60px;
+        }
+
+        span {
+            margin-bottom: 20px;
+        }
+
+        input {
+            font-family: $secundaria;
+            font-size: 35px;
+            line-height: 75px;
+            padding-left: 20px;
+            color: $texto;
+            width: 90%;
+        }
+    }
+
+    .btn_tienda {
+        width: 29rem;
+        height: 6.2rem;
+        border: none;
+        transform: rotate(90deg);
+        margin-block-start: 7.4rem;
+        margin-right: -7.8rem;
+        background-color: $blanco;
+        color: $negro;
+        font-weight: $bold;
+    }
+}

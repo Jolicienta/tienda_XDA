@@ -23,6 +23,8 @@
         height: 120px;
         width: 120px;
         padding-right: 80px;
+        display: flex;
+        align-items: center;
     }
 
     .navbar-toggler i {
@@ -34,10 +36,9 @@
         background-color: #FFF;
     }
 
-    #navbarNav {
-        display: flex;
-        text-align: center;
-        align-content: center;
+    .navbar-nav {
+        z-index: 100;
+        background-color: $blanco;
     }
 
     .nav-item {

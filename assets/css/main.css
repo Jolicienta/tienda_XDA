@@ -27,7 +27,8 @@ article {
   article p {
     font-size: 40px;
     color: #A6A5A8;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 50px; }
 
 .navbar {
   padding: 0;
@@ -50,16 +51,17 @@ article {
   .navbar .navbar-toggler {
     height: 120px;
     width: 120px;
-    padding-right: 80px; }
+    padding-right: 80px;
+    display: flex;
+    align-items: center; }
   .navbar .navbar-toggler i {
     font-size: 50px;
     color: black; }
   .navbar .bg-light {
     background-color: #FFF; }
-  .navbar #navbarNav {
-    display: flex;
-    text-align: center;
-    align-content: center; }
+  .navbar .navbar-nav {
+    z-index: 100;
+    background-color: #FFF; }
   .navbar .nav-item {
     border: 1px solid #0C0910;
     text-align: center; }
@@ -69,7 +71,42 @@ article {
     color: #0C0910;
     font-size: 40px; }
 
-button {
+.newsletter {
+  width: 100%;
+  background-color: #0C0910;
+  font-family: "Old Standard TT", serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between; }
+  .newsletter .datos {
+    padding: 50px 0 50px 80px;
+    display: flex;
+    flex-direction: column; }
+    .newsletter .datos h3 {
+      font-size: 60px; }
+    .newsletter .datos span {
+      margin-bottom: 20px; }
+    .newsletter .datos input {
+      font-family: "Raleway", sans-serif;
+      font-size: 35px;
+      line-height: 75px;
+      padding-left: 20px;
+      color: #A6A5A8;
+      width: 90%; }
+  .newsletter .btn_tienda {
+    width: 29rem;
+    height: 6.2rem;
+    border: none;
+    transform: rotate(90deg);
+    margin-block-start: 7.4rem;
+    margin-right: -7.8rem;
+    background-color: #FFF;
+    color: #0C0910;
+    font-weight: 700; }
+
+.btn_article {
   font-family: "Raleway", sans-serif;
   font-size: 40px;
   font-weight: 700;
