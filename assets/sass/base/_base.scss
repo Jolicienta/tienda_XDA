@@ -1,7 +1,14 @@
-//PALETA DE COLORES DEL PROYECTO
+// PALETA DE COLORES DEL PROYECTO
+$negro: #0C0910;
+$texto: #A6A5A8;
+$input: #D1D1D1;
+$blanco: #FFF;
 
-
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
+    background-color: $blanco;
 }

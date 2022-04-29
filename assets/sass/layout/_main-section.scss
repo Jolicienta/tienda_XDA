@@ -1,0 +1,19 @@
+article {
+    padding: 80px;
+
+    .h1, h1 {
+        font-family: $principal;
+        font-weight: $bold;
+        color: $negro;
+        font-size: 70px;
+        font-weight: $bold;
+        text-transform: uppercase;
+        line-height: 90px;
+    }
+
+    p {
+        font-size: 40px;
+        color:$texto;
+        font-family: $secundaria;
+    }
+}
