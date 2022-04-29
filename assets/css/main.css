@@ -63,8 +63,12 @@ article {
     z-index: 100;
     background-color: #FFF; }
   .navbar .nav-item {
-    border: 1px solid #0C0910;
+    border-bottom: 2px solid #0C0910;
     text-align: center; }
+  .navbar .nav-item:hover {
+    background-color: #ECECEC; }
+  .navbar .nav-item:focus {
+    background-color: #ECECEC; }
   .navbar .nav-link {
     width: 100vw;
     align-items: center;
@@ -95,16 +99,9 @@ article {
       padding-left: 20px;
       color: #A6A5A8;
       width: 90%; }
-  .newsletter .btn_tienda {
-    width: 29rem;
-    height: 6.2rem;
-    border: none;
-    transform: rotate(90deg);
-    margin-block-start: 7.4rem;
-    margin-right: -7.8rem;
-    background-color: #FFF;
-    color: #0C0910;
-    font-weight: 700; }
+
+navbar-toggler:focus:not(:focus-invisible) {
+  outline: 0; }
 
 .btn_article {
   font-family: "Raleway", sans-serif;
@@ -115,5 +112,22 @@ article {
   width: 250px;
   line-height: 80px;
   background-color: #FFF; }
+
+.btn_tienda {
+  width: 28.2rem;
+  height: 6.2rem;
+  border: none;
+  transform: rotate(90deg);
+  margin-block-start: 7.5rem;
+  margin-right: -7.6rem;
+  background-color: #FFF;
+  color: #0C0910;
+  font-weight: 700; }
+
+.btn_tienda:hover {
+  background-color: #ECECEC; }
+
+.btn_tienda:focus {
+  background-color: #ECECEC; }
 
 /*# sourceMappingURL=main.css.map */

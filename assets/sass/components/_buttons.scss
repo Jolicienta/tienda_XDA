@@ -1,3 +1,7 @@
+navbar-toggler:focus:not(:focus-invisible) {
+    outline: 0;
+}
+
  .btn_article {
     font-family: $secundaria;
     font-size: 40px;
@@ -7,4 +11,24 @@
     width: 250px;
     line-height: 80px;
     background-color: $blanco;
+}
+
+.btn_tienda {
+    width: 28.2rem;
+    height: 6.2rem;
+    border: none;
+    transform: rotate(90deg);
+    margin-block-start: 7.5rem;
+    margin-right: -7.6rem;
+    background-color: $blanco;
+    color: $negro;
+    font-weight: $bold;
+}
+
+.btn_tienda:hover {
+    background-color: $resaltar;
+}
+
+.btn_tienda:focus {
+    background-color: $resaltar;
 }

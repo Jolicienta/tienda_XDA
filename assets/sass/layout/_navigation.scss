@@ -42,8 +42,16 @@
     }
 
     .nav-item {
-        border: 1px solid $negro;
+        border-bottom: 2px solid $negro;
         text-align: center;
+    }
+
+    .nav-item:hover {
+        background-color: $resaltar;
+    }
+
+    .nav-item:focus {
+        background-color: $resaltar;
     }
 
     .nav-link {
