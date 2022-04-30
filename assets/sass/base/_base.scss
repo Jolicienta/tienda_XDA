@@ -1,15 +1,11 @@
-// PALETA DE COLORES DEL PROYECTO
-$negro: #0C0910;
-$texto: #A6A5A8;
-$input: #D1D1D1;
-$blanco: #FFF;
-$resaltar: #ECECEC;
-
-* {
-    margin: 0;
-    padding: 0;
-}
 body {
     margin: 0;
     background-color: $blanco;
 }
+
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }

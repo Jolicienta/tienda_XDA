@@ -1,17 +1,51 @@
-//TIPOGRAFIAS
-//FAMILIAS
-$principal: 'Old Standard TT', serif;
-$secundaria: 'Raleway', sans-serif;
+//VALORES TIPOGRAFICOS
+//De los botones
+.btn_article {
+   font-family: $secundaria;
+   font-size: 40px;
+   font-weight: $bold;
+   color: $negro;
+}
 
-//PESO
-$bold: 700;
-$regular: 400;
+.btn_article:focus {
+    color: $texto;
+}
 
-//FONT-SIZE
-$xxx-large: 50px;
-$xx-large: 30px;
-$x-large: 20px;
-$large: 18px;
-$medium: 16px;
-$small: 14px;
-$x-small: 12px;
+.btn_tienda {
+    color: $negro;
+    font-weight: $bold;
+}
+
+//Del Navbar
+.navbar {
+    .navbar-brand {
+        font-family: $principal;
+        color: $blanco;
+        font-size: 40px;
+        font-weight: $regular;
+    }
+
+    .nav-link {
+        color: $negro;
+        font-size: 40px;
+    }
+}
+
+//De la seccion Newsletter
+.newsletter {
+    font-family: $principal;
+    font-size: 40px;
+    font-weight: $bold;
+    color: $blanco;
+
+    h3 {
+        font-size: 60px;
+    }
+
+    input {
+        font-family: $secundaria;
+        font-size: 35px;
+        line-height: 75px;
+        color: $texto;
+    }
+}

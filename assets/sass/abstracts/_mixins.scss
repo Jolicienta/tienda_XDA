@@ -1,0 +1,20 @@
+// Small devices
+@mixin media-breakpoint-only-sm {
+   @media (min-width: #{$min-width-sm}) and (max-width: #{$max-width-sm}) {
+       @content;
+   }
+}
+
+// Medium devices
+@mixin media-breakpoint-only-md {
+   @media (min-width: #{$min-width-md}) and (max-width: #{$max-width-md}) {
+       @content;
+   }
+}
+
+// Large devices
+@mixin media-breakpoint-only-lg {
+   @media (min-width: #{$min-width-lg}) and (max-width: #{$max-width-lg}) {
+       @content;
+   }
+}

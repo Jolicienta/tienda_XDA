@@ -1,39 +1,33 @@
 .navbar {
     padding: 0;
-    background-color: $blanco;
-    display: flex;
-    justify-content: space-between;
     height: 120px;
     width: 100vw;
+    background-color: $blanco;
 
     .navbar-brand {
-        font-family: $principal;
-        color: $blanco;
-        background-color: $negro;
         width: 120px;
         height: 120px;
-        font-size: 40px;
-        font-weight: $regular;
+        display: flex;
         justify-content: center;
         align-items: center;
-        display: flex;
+        background-color: $negro;
     }
 
     .navbar-toggler {
         height: 120px;
         width: 120px;
         padding-right: 80px;
-        display: flex;
-        align-items: center;
+    }
+
+    @include media-breakpoint-only-md {
+        .navbar-toggler {
+            display: none;
+        }
     }
 
     .navbar-toggler i {
         font-size: 50px;
         color: black;
-    }
-
-    .bg-light {
-        background-color: #FFF;
     }
 
     .navbar-nav {
@@ -43,21 +37,13 @@
 
     .nav-item {
         border-bottom: 2px solid $negro;
-        text-align: center;
+        display: flex;
+        justify-content: center;
     }
 
-    .nav-item:hover {
-        background-color: $resaltar;
-    }
-
-    .nav-item:focus {
-        background-color: $resaltar;
-    }
+    .nav-item:hover, .nav-item:focus { background-color: $resaltar; }
 
     .nav-link {
         width: 100vw;
-        align-items: center;
-        color: $negro;
-        font-size: 40px;
     }
 }
